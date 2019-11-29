@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="23.0" layoutY="24.0" mnemonicParsing="false" onAction="#openFile" text="Open" />
+      <Button layoutX="105.0" layoutY="24.0" mnemonicParsing="false" onAction="#saveFile" text="Save" />
+      <TextArea fx:id="fileText" layoutX="23.0" layoutY="61.0" prefHeight="324.0" prefWidth="555.0" />
+      <Button layoutX="307.0" layoutY="24.0" mnemonicParsing="false" onAction="#count" text="Count" />
+      <Label layoutX="376.0" layoutY="29.0" text="Words" />
+      <Label fx:id="wordCount" layoutX="444.0" layoutY="29.0" text="0" />
+      <Label layoutX="476.0" layoutY="29.0" text="Vowels" />
+      <Label fx:id="vowelCount" layoutX="542.0" layoutY="29.0" text="0" />
+   </children>
+</Pane>
